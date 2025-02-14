@@ -16,6 +16,9 @@
     * Elapsed time: Total time taken by the program to complete
     * CPU Time:  
 
+* Open profiling data in GUI
+  * `vtune-gui vtune_results`
+
 **Nvidia's Nsight systems**
   * `nsys profile --trace=cuda,nvtx,mpi,openmp -o profile_output mpirun -np 8 ./exe`
   * This generates a report `profile_output.nsys-rep`
